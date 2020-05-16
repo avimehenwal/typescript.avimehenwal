@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "[github-report-cli] Build and run project",
+			"type": "shell",
+			"options": {
+        "cwd": "${workspaceFolder}/github-report-cli"
+      },
+			"command": "yarn",
+			"args": [
+				"run", "start"
+			],
+			"group": "build",
+			"problemMatcher": ["$tsc"]
+		}
+	]
+}

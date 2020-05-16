@@ -1,0 +1,11 @@
+{
+  "name": "github-report-cli",
+  "version": "1.0.0",
+  "description": "typescript sample api CLI project",
+  "main": "index.js",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node out/index.js"
+  }
+}
