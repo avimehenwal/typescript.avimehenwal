@@ -1,0 +1,11 @@
+{
+  "name": "debugging-vscode",
+  "version": "1.0.0",
+  "description": "project to test debugging capabilities with vscode",
+  "main": "index.js",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
