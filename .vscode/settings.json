@@ -1,0 +1,10 @@
+{
+  "conventionalCommits.scopes": [
+    "redability",
+    "structure",
+    "dependency",
+    "api",
+    "object",
+    "arguments"
+  ]
+}

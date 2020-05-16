@@ -1,0 +1,19 @@
+{
+  "name": "github-report-cli",
+  "version": "1.0.0",
+  "description": "typescript sample api CLI project",
+  "main": "index.js",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc; node out/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.151"
+  }
+}

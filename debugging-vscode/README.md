@@ -1,15 +1,18 @@
-# typescript.avimehenwal
+# debugging-vscode
 
-Typescript practise repo
+> debug typescript with chrome and vscode
+
+* [x] First compile and generate js file
+* [x] Make sure vscode extensions **debugger for Chrome** is added
+* [x] start `http-server`
+* [x] check `launch.json` debugger config file
 
 ```
-typescript --version
-Version 3.9.2
-node --version
-v10.19.0
-yarn --version
-1.22.4
+tsc
+http-server
 ```
+
+F5
 
 
 #### Get in touch with me
