@@ -6,7 +6,7 @@
   "author": "avimehenwal",
   "license": "MIT",
   "scripts": {
-    "start": "tsc && node out/index.js"
+    "start": "tsc; node out/index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
