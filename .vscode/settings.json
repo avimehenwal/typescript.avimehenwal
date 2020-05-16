@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
     "redability",
-    "structure"
+    "structure",
+    "dependency"
   ]
 }

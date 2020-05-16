@@ -1,0 +1,13 @@
+digraph doesntMatter {
+  // rankdir=LR
+  bgcolor=transparent
+
+  node [colorscheme=set312 style=filled shape=record]
+  edge [fontname=Helvetica penwidth=2]
+
+  a [fillcolor=3 label="github-cli-project"]
+  c [fillcolor=1 label=<{class | <B>Repo</B>} >]
+  b [fillcolor=2 label=<{class | <B>User</B>} >]
+
+  a -> { b c }
+}
