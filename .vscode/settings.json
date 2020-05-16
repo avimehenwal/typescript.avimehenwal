@@ -4,6 +4,7 @@
     "structure",
     "dependency",
     "api",
-    "object"
+    "object",
+    "arguments"
   ]
 }
