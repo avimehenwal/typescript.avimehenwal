@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: path.join(__dirname, '/app.ts'),
+    devtool: 'inline-source-map',
     output: {
         filename: 'app.js',
         path: __dirname
