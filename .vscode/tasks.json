@@ -26,22 +26,12 @@
 			"command": "yarn",
 			"args": [
 				"run",
-				"start"
+				"serve"
 			],
 			"group": "build",
 			"problemMatcher": [
 				"$tsc"
 			]
-		},
-		{
-			"type": "typescript",
-			"tsconfig": "graphviz-d3/tsconfig.json",
-			"option": "watch",
-			"problemMatcher": [
-				"$tsc-watch"
-			],
-			"group": "build",
-			"label": "tsc: watch - graphviz-d3/tsconfig.json"
 		}
 	]
 }

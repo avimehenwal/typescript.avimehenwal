@@ -15,8 +15,10 @@
       "type": "chrome",
       "request": "launch",
       "name": "[graphviz-d3] launch chrome",
-      "url": "http://localhost:8080",
+      "cwd": "${workspaceFolder}/graphviz-d3",
+      "url": "http://localhost:8080/",
       "webRoot": "${workspaceFolder}/graphviz-d3"
+      }
     }
   ]
 }
