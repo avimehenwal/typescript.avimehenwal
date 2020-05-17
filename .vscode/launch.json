@@ -10,6 +10,13 @@
       "name": "[debugging-vscode] launch chrome",
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}/debugging-vscode"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "[graphviz-d3] launch chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/graphviz-d3"
     }
   ]
 }

@@ -25,6 +25,10 @@ tsc --init
 yarn init
 ```
 
+### Resources Uses
+
+* [Favicon Generator](https://www.favicon.cc/)
+
 
 #### Get in touch with me
 
