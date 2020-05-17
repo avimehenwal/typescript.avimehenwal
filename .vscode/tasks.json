@@ -5,14 +5,33 @@
 			"label": "[github-report-cli] Build and run project",
 			"type": "shell",
 			"options": {
-        "cwd": "${workspaceFolder}/github-report-cli"
-      },
+				"cwd": "${workspaceFolder}/github-report-cli"
+			},
 			"command": "yarn",
 			"args": [
-				"run", "start"
+				"run",
+				"start"
 			],
 			"group": "build",
-			"problemMatcher": ["$tsc"]
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "[graphviz-d3] Build and run project",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}/graphviz-d3"
+			},
+			"command": "yarn",
+			"args": [
+				"run",
+				"start"
+			],
+			"group": "build",
+			"problemMatcher": [
+				"$tsc"
+			]
 		}
 	]
 }

@@ -11,6 +11,20 @@ yarn --version
 1.22.4
 ```
 
+## New typescript project
+
+```
+ProjectName
+
+mkdir $ProjectName
+cd $ProjectName
+touch README.md
+echo "# $ProjectName" > README.md
+
+tsc --init
+yarn init
+```
+
 
 #### Get in touch with me
 

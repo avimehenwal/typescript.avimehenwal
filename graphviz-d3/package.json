@@ -1,0 +1,17 @@
+{
+  "name": "graphviz-d3",
+  "version": "1.0.0",
+  "description": "graphviz-d3 sample application",
+  "main": "out/index.js",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc; node out/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "d3-graphviz": "^3.0.6"
+  }
+}
