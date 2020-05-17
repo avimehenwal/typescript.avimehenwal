@@ -5,6 +5,8 @@
 	"recommendations": [
 		"chris-noring.ts-snippets",
 		"ms-vscode.vscode-typescript-next",
+		"hasanakg.firebase-snippets",
+		"toba.vsfire"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": []
