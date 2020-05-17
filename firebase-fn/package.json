@@ -1,0 +1,13 @@
+{
+  "name": "firebase-fn",
+  "version": "1.0.0",
+  "description": "Firebase cloud function written in typescript",
+  "main": "index.js",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase": "^7.14.4",
+    "firebase-tools": "^8.2.0",
+    "typescript": "^3.9.2"
+  }
+}
