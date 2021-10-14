@@ -2,7 +2,6 @@
 
 ![project structure](./abstraction.png)
 
-
 * How to setup a new project to use typescript?
   * index.js entrypoint?
 * How to facilitate autocomple for npm modules? like lodash
@@ -18,4 +17,3 @@
 
 
 * https://www.npmjs.com/package/@types/lodash
-*
