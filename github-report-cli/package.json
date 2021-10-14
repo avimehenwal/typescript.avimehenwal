@@ -9,7 +9,7 @@
     "start": "tsc; node out/index.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "chalk": "^4.0.0",
     "lodash": "^4.17.15"
   },
