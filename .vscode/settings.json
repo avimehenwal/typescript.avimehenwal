@@ -19,6 +19,7 @@
     "vscode",
     "webpack",
     "workspace",
-    "structure"
+    "structure",
+    "security"
   ]
 }
