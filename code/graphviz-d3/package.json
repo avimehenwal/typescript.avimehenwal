@@ -6,10 +6,10 @@
   "author": "avimehenwal",
   "license": "MIT",
   "scripts": {
-    "start": "tsc; node out/index.js",
-    "serve": "webpack-dev-server --mode development"
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --mode development"
   },
   "devDependencies": {
+    "@types/d3": "^7.4.0",
     "http-server": "^0.12.3",
     "ts-loader": "^7.0.4",
     "typescript": "^3.9.2",
