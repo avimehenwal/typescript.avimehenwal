@@ -1,0 +1,24 @@
+{
+  "name": "graphviz-d3",
+  "version": "1.0.0",
+  "description": "graphviz-d3 sample application",
+  "main": "index.html",
+  "author": "avimehenwal",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc; node out/index.js",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "d3": "^5.16.0",
+    "d3-graphviz": "^3.0.6"
+  }
+}

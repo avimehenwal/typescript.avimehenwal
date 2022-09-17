@@ -11,6 +11,24 @@ yarn --version
 1.22.4
 ```
 
+## New typescript project
+
+```
+ProjectName
+
+mkdir $ProjectName
+cd $ProjectName
+touch README.md
+echo "# $ProjectName" > README.md
+
+tsc --init
+yarn init
+```
+
+### Resources Uses
+
+* [Favicon Generator](https://www.favicon.cc/)
+
 
 #### Get in touch with me
 

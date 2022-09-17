@@ -1,10 +1,22 @@
 {
   "conventionalCommits.scopes": [
-    "redability",
-    "structure",
-    "dependency",
+    "genesis",
+    "scaffold",
+    "core",
+    "cli",
+    "website",
     "api",
-    "object",
-    "arguments"
+    "parser",
+    "package-manager",
+    "changelog",
+    "readme",
+    "component",
+    "lint",
+    "router",
+    "state-management",
+    "localization",
+    "release",
+    "vscode",
+    "webpack"
   ]
 }
