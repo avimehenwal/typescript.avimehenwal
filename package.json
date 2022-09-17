@@ -1,0 +1,12 @@
+{
+  "name": "typescript.avimehenwal",
+  "version": "1.0.0",
+  "description": "typescript projects in a monorepository",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript"],
+  "author": "avimehenwal",
+  "license": "ISC"
+}
