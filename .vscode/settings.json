@@ -17,6 +17,9 @@
     "localization",
     "release",
     "vscode",
-    "webpack"
+    "webpack",
+    "workspace",
+    "structure",
+    "security"
   ]
 }

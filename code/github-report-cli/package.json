@@ -6,7 +6,7 @@
   "author": "avimehenwal",
   "license": "MIT",
   "scripts": {
-    "start": "tsc; node out/index.js"
+    "start": "tsc && node out/index.js"
   },
   "dependencies": {
     "axios": "^0.21.2",
@@ -14,6 +14,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.151"
+    "@types/lodash": "^4.14.151",
+    "@types/node": "^18.7.18"
   }
 }
