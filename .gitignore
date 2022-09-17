@@ -3,3 +3,6 @@ node_modules
 
 # Optional eslint cache
 .eslintcache
+
+# DX
+COMMIT_MSG.md
