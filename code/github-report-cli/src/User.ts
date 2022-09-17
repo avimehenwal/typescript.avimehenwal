@@ -1,43 +1,45 @@
 
 export class User {
   email: any;
-  hireable: boolean;
-  site_admin: boolean;
-  public_repos: number;
-  public_gists: number;
-  followers: number;
-  following: number;
-  id: number;
-  login: string;
-  node_id: string;
-  avatar_url: string;
-  gravatar_id: string;
-  url: string;
-  html_url: string;
-  followers_url: string;
-  following_url: string;
-  gists_url: string;
-  starred_url: string;
-  subscriptions_url: string;
-  organizations_url: string;
-  repos_url: string;
-  events_url: string;
-  received_events_url: string;
-  type: string;
-  name: string;
-  company: string;
-  blog: string;
-  location: string;
-  bio: string;
-  updated_at: string;
-  created_at: string;
+  hireable?: boolean;
+  site_admin?: boolean;
+  public_repos?: number;
+  public_gists?: number;
+  followers?: number;
+  following?: number;
+  id?: number;
+  login?: string;
+  node_id?: string;
+  avatar_url?: string;
+  gravatar_id?: string;
+  url?: string;
+  html_url?: string;
+  followers_url?: string;
+  following_url?: string;
+  gists_url?: string;
+  starred_url?: string;
+  subscriptions_url?: string;
+  organizations_url?: string;
+  repos_url?: string;
+  events_url?: string;
+  received_events_url?: string;
+  type?: string;
+  name?: string;
+  company?: string;
+  blog?: string;
+  location?: string;
+  bio?: string;
+  updated_at?: string;
+  created_at?: string;
 
   constructor(JSONResponse: Object) {
     Object.entries(JSONResponse).forEach(([key, value]) => {
       console.log('KEY: %s \t\t\t\t\t VALUE: %s', key, value);
+      // @ts-ignore
       this[key] = value
     });
   }
+}
 
 export let JSONResponse = {
   login: 'avimehenwal',
