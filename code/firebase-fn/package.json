@@ -6,8 +6,8 @@
   "author": "avimehenwal",
   "license": "MIT",
   "devDependencies": {
-    "firebase": "^7.14.4",
-    "firebase-tools": "^8.2.0",
-    "typescript": "^3.9.2"
+    "firebase": "^9.10.0",
+    "firebase-tools": "^11.12.0",
+    "typescript": "^4.8.4"
   }
 }
