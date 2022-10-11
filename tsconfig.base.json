@@ -7,8 +7,8 @@
     "strict": true,
     "skipLibCheck": true,
     "paths": {
-      "sdfsdfsdf": [
-        "packages/sdfsdfsdf/src/index.ts"
+      "observable": [
+        "packages/observable/src/index.ts"
       ]
     }
   }
