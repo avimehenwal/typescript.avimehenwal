@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "pluginsConfig": {
+    "@nrwl/js": {
+      "analyzeSourceFiles": true
+    }
+  },
   "keywords": [
     "typescript"
   ],
@@ -27,8 +32,25 @@
     }
   },
   "devDependencies": {
-    "@nrwl/js": "^14.8.2",
-    "nx": "14.8.2",
+    "@nrwl/eslint-plugin-nx": "14.8.4",
+    "@nrwl/jest": "14.8.4",
+    "@nrwl/js": "^14.8.4",
+    "@nrwl/linter": "14.8.4",
+    "@nrwl/workspace": "^14.8.4",
+    "@types/jest": "28.1.1",
+    "@types/node": "16.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "jest": "28.1.1",
+    "jest-environment-jsdom": "28.1.1",
+    "nx": "14.8.4",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.9.1",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   }
 }
